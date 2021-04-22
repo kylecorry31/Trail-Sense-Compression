@@ -40,3 +40,5 @@ else:
     f = open(outputFile, 'wb')
     f.write(b''.join(list(map(lambda x: struct.pack(value_format, x), data))))
     f.close()
+
+# TODO: Add decompression
